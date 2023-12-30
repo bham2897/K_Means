@@ -1,7 +1,8 @@
 # K_Means
 This Python script performs a K-Means clustering analysis on a dataset representing various branches of an organization. It uses machine learning and data visualization techniques to categorize branches based on their performance metrics. The script is ideal for business analysts, data scientists, and decision-makers who want to understand the performance patterns of different branches and make data-driven decisions.
-**
-Key Features**
+
+
+**Key Features**
 1. Data Preparation: The script creates a DataFrame with data related to branch performance, including employee count, location quality, investment, expenses, and sales.
 2. Data Standardization: Numerical data is standardized using StandardScaler from the sklearn.preprocessing module to ensure uniformity for clustering.
 3. Dimensionality Reduction: Applies Principal Component Analysis (PCA) to reduce the dimensionality of the data, facilitating visualization in 2D space.
